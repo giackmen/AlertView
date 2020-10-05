@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
          });
         builder.setTitle("Discard project?");
 
-        builder.setPositiveButton("CONFERMA", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("CONFIRM", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                // String s = editText.getText().toString().trim();
